@@ -1,30 +1,11 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "Example Site"
+title: "Features Available"
 ---
 
-## Table of Contents
-1. [Problem Statement](#1-problem-statement)
-2. [Objective](#2-objective)
-3. [Prerequisites](#3-prerequistes)
-4. [Steps](#4-steps)
-    1. [From Content Development Perspective](#41-from-content-development-perspective)
-        1. [Parsers](#411-parsers)
-            1. [Ownership Tracking](#4111-ownership-tracking)
-            2. [Allowed Changes](#4112-allowed-changes)
-            3. [Restricted Changes](#4113-restricted-changes)
-    2. [From Content Admin Perspective](#42-from-content-admin-perspective)
-        1. [Parsers](#421-parsers)
-            1. [New Improved Deploy Action](#4211-new-improved-deploy-action)
-            2. [Manage Content](#4212-manage-content)
-            3. [Daily Housekeeping Job](#4213-daily-housekeeping-job)
-        2. [Policies](#422-policies)
-            1. [Manage Content](#4221-manage-content)
-            2. [Deprecate Policies](#4222-deprecate-policies)
-
 -----
-## Code Snippet
+## Code Snippet blocks
 
 ```py3
 # Python Code
@@ -38,7 +19,7 @@ print("This is a sample post for code snippet 2")
 print("I added line numbers to the code snippet!")
 ```
 
-## GIF
+## GIF feature
 
 ![Watermelon GIF](../../watermelon.gif "Watermelon GIF")
 
@@ -52,7 +33,7 @@ Adding a border:
 
 The GIF works!
 
-## Video
+## Video/Loom integration
 
 {{< rawhtml >}}
 
@@ -71,7 +52,9 @@ The GIF works!
 {{</* /tabs */>}}
 ```
 
-## Example
+## Tabs 
+
+Showcase multiple documentation for different OS/versions side by side
 
 {{< tabs "uniqueid" >}}
 {{< tab "MacOS" >}}
