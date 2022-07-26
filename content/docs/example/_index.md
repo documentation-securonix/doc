@@ -24,8 +24,6 @@ title: "Example Site"
             2. [Deprecate Policies](#4222-deprecate-policies)
 
 -----
-<<<<<<< Updated upstream
-=======
 ## Code Snippet
 
 ```py3
@@ -65,7 +63,6 @@ The GIF works!
 
 {{< /rawhtml >}}
 
->>>>>>> Stashed changes
 
 ### 1 Problem Statement
 Customers don’t have an option to update customized securonix OOTB parsers. Application lacks ownership tracking of the parser at a granular level.

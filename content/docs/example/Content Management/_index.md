@@ -17,12 +17,5 @@ Content Management allows detection engineers to seamlessly deploy content (poli
 
 ## Example
 
-<<<<<<< Updated upstream
-```tpl
-{{</* section */>}}
-```
-=======
-
->>>>>>> Stashed changes
 
 {{<section>}}
