@@ -1,4 +1,4 @@
-# Documentation
+# Securonix Documentation as Code
 
 This repository contains the Documentation for Securonix products and services.
 
