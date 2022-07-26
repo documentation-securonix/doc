@@ -33,24 +33,6 @@ Adding a border:
 
 The GIF works!
 
-## Video/Loom integration
-
-{{< rawhtml >}}
-
-<div style="position: relative; padding-bottom: 43.4375%; height: 0;">
-    <iframe src="https://www.loom.com/embed/77dcf27d20da45138d441f644d796ab5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-    </iframe>
-</div>
-
-{{< /rawhtml >}}
-
-```tpl
-{{</* tabs "uniqueid" */>}}
-{{</* tab "MacOS" */>}} # MacOS Content {{</* /tab */>}}
-{{</* tab "Linux" */>}} # Linux Content {{</* /tab */>}}
-{{</* tab "Windows" */>}} # Windows Content {{</* /tab */>}}
-{{</* /tabs */>}}
-```
 
 ## Tabs 
 
@@ -92,3 +74,14 @@ protulit, sed sed aere valvis inhaesuro Pallas animam: qui _quid_, ignes.
 Miseratus fonte Ditis conubia.
 {{< /tab >}}
 {{< /tabs >}}
+
+## Video/Loom integration
+
+{{< rawhtml >}}
+
+<div style="position: relative; padding-bottom: 43.4375%; height: 0;">
+    <iframe src="https://www.loom.com/embed/77dcf27d20da45138d441f644d796ab5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+</div>
+
+{{< /rawhtml >}}
