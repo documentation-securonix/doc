@@ -63,6 +63,52 @@ The GIF works!
 
 {{< /rawhtml >}}
 
+```tpl
+{{</* tabs "uniqueid" */>}}
+{{</* tab "MacOS" */>}} # MacOS Content {{</* /tab */>}}
+{{</* tab "Linux" */>}} # Linux Content {{</* /tab */>}}
+{{</* tab "Windows" */>}} # Windows Content {{</* /tab */>}}
+{{</* /tabs */>}}
+```
+
+## Example
+
+{{< tabs "uniqueid" >}}
+{{< tab "MacOS" >}}
+# MacOS
+
+This is tab **MacOS** content.
+
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui _quid_, ignes.
+Miseratus fonte Ditis conubia.
+{{< /tab >}}
+
+{{< tab "Linux" >}}
+
+# Linux
+
+This is tab **Linux** content.
+
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui _quid_, ignes.
+Miseratus fonte Ditis conubia.
+{{< /tab >}}
+
+{{< tab "Windows" >}}
+
+# Windows
+
+This is tab **Windows** content.
+
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui _quid_, ignes.
+Miseratus fonte Ditis conubia.
+{{< /tab >}}
+{{< /tabs >}}
 
 ### 1 Problem Statement
 Customers don’t have an option to update customized securonix OOTB parsers. Application lacks ownership tracking of the parser at a granular level.
@@ -77,17 +123,17 @@ Resource groups require a certain level of customization specific to a customer 
 
 ### 4 Steps
 
-#### 4.1 From Content Development Perspective
+### 4.1 From Content Development Perspective
 
-##### 4.1.1 Parsers
+### 4.1.1 Parsers
 
-###### 4.1.1.1 Ownership Tracking
+### 4.1.1.1 Ownership Tracking
 Ownership changes to ClientCreated (from SecuronixCreated) when Major Changes are made. This employs granular tracking which was not available previously. Line Filters and Action Filters can be updated but Derived Fields and Categorization Enrichments are not tracked in this ownership change. Categorization Enrichments are restricted (covered under Restricted Changes below). However, this ownership tracking currently only applies to Securonix owned Parsers (i.e. starting with SCNX_ or having CRPid as less than 1 Million).
 
 <!-- {{< figure src="../../image13.png" caption="Ownership Tracking" >}} -->
 ![Ownership Tracking](../../image13.png "Ownership Tracking")
 
-###### 4.1.1.2 Allowed Changes
+### 4.1.1.2 Allowed Changes
 Changes to Geolocation, TPI, Lookups, Activelists and IP Attribution are all allowed to Clients and do not require the creation of a CUST_ parser.
 
 ![Allowed Changes Page 1](../../image3.png "Allowed Changes Page 1")
@@ -108,7 +154,7 @@ You will see that a pop up screen will appear that says you can either Save the 
 
 ![Allowed Changes Page 5](../../image9.png#center "Allowed Changes Page 5")
 
-###### 4.1.1.3 Restricted Changes
+### 4.1.1.3 Restricted Changes
 Categorization Enrichments are not allowed. For example, Set Event Severity and Set Event Category are not allowed to be changed by Clients. If a Client wants to modify these, they will be forced to create a CUST_ parser.
 
 ![Restricted Changes Page 1](../../image3.png "Restricted Changes Page 1")
@@ -131,11 +177,11 @@ You will see that a pop up screen will appear that says you need to Save the set
 
 This is because this is a restricted change and will create a CUST_ parser instead of affecting the SCNX_ parser.
 
-#### 4.2 From Content Admin Perspective
+### 4.2 From Content Admin Perspective
 
-##### 4.2.1 Parsers
+### 4.2.1 Parsers
 
-###### 4.2.1.1 New Improved Deploy Action
+### 4.2.1.1 New Improved Deploy Action
 Till now the Deploy Parser action to update Parser used to overwrite any Line Filter Customizations that the client had made. The new improved deploy action allows clients to keep their own Line Filters customizations on Parsers and still get them updated to the newest versions when they are available. This is done by showing a popup when clicking the Deploy button which gives the client the choice to overwrite the Line Filters or not.
 
 ![NIDA Page 1](../../image6.png "NIDA Page 1")
@@ -144,24 +190,24 @@ Till now the Deploy Parser action to update Parser used to overwrite any Line Fi
 
 Here, ticking the first option will overwrite the line filters that the customer might have modified (essentially replacing the parser with the latest OOTB parser) while unticking it will ensure that the parser is updated to the latest version while keeping the line filter customizations that the customer did as-is. The second option is basically a confirmation checkbox and the deploy button becomes clickable only when this is ticked.
 
-###### 4.2.1.2 Manage Content
+### 4.2.1.2 Manage Content
 The Manage Content screen allows a Parser to be force deployed and resetted back to the Securonix OOTB Parser by reading the latest data from the Data folder and overwriting the customized data. This means any customization that the Client has done (and which may or may not have resulted in any corruption be it intentional or otherwise) will be wiped out and replaced with the OOTB Parser.
 
 ![Parsers Manage Content](../../image7.png "Parsers Manage Content")
 
-###### 4.2.1.3 Daily Housekeeping Job
+### 4.2.1.3 Daily Housekeeping Job
 A dedicated job that runs every 24 hours. This job will check if there are any new parsers in the CRP folders and automatically deploys them in the CRP table. This job also runs when a new datasource is added for the first time.
 
 ![Housekeeping](../../image12.png "Housekeeping")
 
-##### 4.2.2 Policies
+### 4.2.2 Policies
 
-###### 4.2.2.1 Manage Content
+### 4.2.2.1 Manage Content
 The Manage Content screen allows a Policy to be force deployed and resetted back to the Securonix OOTB Policy by reading the latest data from the Data folder and overwriting the customized data. This means any customization that the Client has done (and which may or may not have resulted in any corruption be it intentional or otherwise) will be wiped out and replaced with the OOTB Policy.
 
 ![Policies Manage Content](../../image8.png "Policies Manage Content")
 
-###### 4.2.2.2 Deprecate Policies
+### 4.2.2.2 Deprecate Policies
 There are 2 ways to deprecate a policy:
 
 1. Developers can simply remove the config files corresponding to that policy from the SVN repository. This will automatically start the counter (in a range of 60-90 days). This is to ensure that clients have sufficient time to either clone the policy or create a duplicate version of the policy if they need it or they can modify and retain the policy.
