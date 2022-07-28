@@ -18,8 +18,8 @@ Generate and validate authentication tokens.
 ## Markdown content
 Request type: GET
 ```py3
-# Python Code
-print("{{url}}/ws/token/generate")
+# Code block
+"{{url}}/ws/token/generate"
 ```
 
 To use a REST API with SNYPR, you must be authenticated. You can use the Generate Token API to authenticate and obtain a token, which you must then use with every API request.
@@ -27,6 +27,20 @@ To use a REST API with SNYPR, you must be authenticated. You can use the Generat
 
 Base URL |  | 
 --- | --- | 
-*{{url}}* | It must be in the following format: <br/> https://<hostname or IPaddress>/Snypr |
+*{{url}}* | It must be in the following format: <br> https://<hostname or IPaddress>/Snypr |
  
 {{< /expand >}}
+
+### Request
+```py3
+# Code block
+curl --request GET \ 
+--url 'http://{{url}}/ws/token/generate' \ 
+--header 'password: {{password}}' \ 
+--header 'username: {{username}}' \ 
+--header 'validity: 365' 
+```
+### Sample Response
+```py3
+530bf219-5360-41d3-81d1-8b4d6f75956d
+```

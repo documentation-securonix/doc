@@ -24,4 +24,4 @@ The following REST APIs are available:
 
 | API Category | Description |
 | ------------ | ----------: |
-| Auth         | Allows you to generate and validate tokens. It includes the following APIs: <br/> Generate Token <br/> Validate Token <br/> Renew Token |
+| Auth         | Allows you to generate and validate tokens. It includes the following APIs: <br> Generate Token <br> Validate Token <br> Renew Token |
