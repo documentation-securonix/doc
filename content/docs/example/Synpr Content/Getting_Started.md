@@ -1,3 +1,12 @@
+---
+weight: 1
+# bookFlatSection: false
+# bookToc: true
+# bookHidden: false
+# bookCollapseSection: false
+# bookComments: false
+# bookSearchExclude: false
+---
 # Commit Content
 
 SNYPR content is categorized by functionality. Functionality is a category that defines a datasource type. For example: Web Proxy is a functionality and Blue Coat Proxy is a datasource. By categorizing datasources by functionality, SNYPR can apply similar parsers, policies, and threat models to all datasources with similar functionality.

@@ -1,3 +1,12 @@
+---
+weight: 3
+# bookFlatSection: false
+# bookToc: true
+# bookHidden: false
+# bookCollapseSection: false
+# bookComments: false
+# bookSearchExclude: false
+---
 # Data Dictionary
 
 Data Dictionary simplifies the ingestion, analytics, and hunting processes by providing consistent and easy to understand labels for data ingested from various datasources. These labels provide uniformity to data ingested from multiple datasources within a functionality.
