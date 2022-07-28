@@ -27,7 +27,7 @@ To use a REST API with SNYPR, you must be authenticated. You can use the Generat
 
 Base URL |  | 
 --- | --- | 
-*{{url}}* | It must be in the following format: <br /> https://<hostname or IPaddress>/Snypr |
+*{{url}}* | It must be in the following format:  https://<hostname or IPaddress>/Snypr |
  
  ### Request
 ```py3

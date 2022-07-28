@@ -35,7 +35,6 @@ Ownership changes to ClientCreated (from SecuronixCreated) when Major Changes ar
 <!-- {{< figure src="../image13.png" caption="Ownership Tracking" >}} -->
 ![Ownership Tracking](../../../../image13.png "Ownership Tracking")
 
-## Video/Loom integration
 
 {{< rawhtml >}}
 
@@ -43,6 +42,8 @@ Ownership changes to ClientCreated (from SecuronixCreated) when Major Changes ar
     <iframe src="https://www.loom.com/embed/77dcf27d20da45138d441f644d796ab5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     </iframe>
 </div>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/01aab048aa3b4d88a05a4e38858a8bbf" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 {{< /rawhtml >}}
 
