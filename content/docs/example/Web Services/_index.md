@@ -26,9 +26,9 @@ The following REST APIs are available:
 | ------------- |:-------------:| 
 | Auth     | Allows you to generate and validate tokens. It includes the following APIs:
 
- | Generate Token |
- | Validate Token |
- | Renew Token | 
+| | Generate Token |
+| | Validate Token |
+| | Renew Token | 
 | Activity   | Enables you to query Spotter for event logs collected through various data sources. It   
-  | includes Activity Data for a Specific Datasource API.      | 
+|  | includes Activity Data for a Specific Datasource API.      | 
 | zebra stripes | are neat      | 
