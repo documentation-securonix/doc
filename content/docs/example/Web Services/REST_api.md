@@ -14,10 +14,20 @@ This section includes a list of REST API categories and requests. Before running
 ## Auth
 Generate and validate authentication tokens.
 
-{{< expand "Custom Label" "..." >}}
+{{< expand "Generate Token" "..." >}}
 ## Markdown content
-Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
-stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
-protulit, sed sed aere valvis inhaesuro Pallas animam: qui _quid_, ignes.
-Miseratus fonte Ditis conubia.
+Request type: GET
+```py3
+# Python Code
+print("{{url}}/ws/token/generate")
+```
+
+To use a REST API with SNYPR, you must be authenticated. You can use the Generate Token API to authenticate and obtain a token, which you must then use with every API request.
+
+
+Base URL |  | 
+--- | --- | 
+*{{url}}* | It must be in the following format:     |
+ | https://<hostname or IPaddress>/Snypr | 
+ 
 {{< /expand >}}
