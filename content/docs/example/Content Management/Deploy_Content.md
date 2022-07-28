@@ -1,3 +1,12 @@
+---
+weight: 1
+# bookFlatSection: false
+# bookToc: true
+# bookHidden: false
+# bookCollapseSection: false
+# bookComments: false
+# bookSearchExclude: false
+---
 # Deploy Content
 
 When you download content using Content Management, the local content folder is updated. If any new content is available, it is displayed in the content category. You have to deploy the content before you can use it in SNYPR.
@@ -16,7 +25,7 @@ The Content Update screen provides the following:
 6. Available Content: Lists the content available for deployment. It also provides information such as current version of the content and the available version of the content.
 7. Update Log: Displays the information of the last update.
 
-Downloading content
+## Downloading content
 To download the content from the Securonix content library, perform the following:
 
 1. Navigate to Menu > Admin > Content Management. The Content Management screen is displayed.

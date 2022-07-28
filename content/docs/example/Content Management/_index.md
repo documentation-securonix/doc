@@ -15,9 +15,8 @@ Content Management allows detection engineers to seamlessly deploy content (poli
 * Policy
 * Threat Models
 
-![CM Menu](../../../../CM_Menu.png)
+![CM Menu](../../../CM_Menu.png "CM Menu")
 
-## Example
 
 Content Management has the following features:
 
@@ -26,9 +25,9 @@ Content Management has the following features:
 
 The following illustration depicts the content workflow:
 
-![CM Workflow](../../../../CM_Workflow.png)
+![CM Workflow](../../../CM_Workflow.png)
 
-Prerequisites
+## Prerequisites
 The following prerequisites are required to access Content Management:
 
 1. The Securonix content library access details must be configured at Menu > Admin > Settings > Content Library.
@@ -38,4 +37,4 @@ The following prerequisites are required to access Content Management:
 ![CM Admin](../../../../CM_Prereq.png)
 
 3. A user account with role as ROLE_COMMIT_CONTENT to commit content from Content Management.
-{{<section>}}
+
