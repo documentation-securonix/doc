@@ -35,6 +35,17 @@ Ownership changes to ClientCreated (from SecuronixCreated) when Major Changes ar
 <!-- {{< figure src="../image13.png" caption="Ownership Tracking" >}} -->
 ![Ownership Tracking](../../../../image13.png "Ownership Tracking")
 
+## Video/Loom integration
+
+{{< rawhtml >}}
+
+<div style="position: relative; padding-bottom: 43.4375%; height: 0;">
+    <iframe src="https://www.loom.com/embed/77dcf27d20da45138d441f644d796ab5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+</div>
+
+{{< /rawhtml >}}
+
 #### 2.1.1.2 Allowed Changes
 Changes to Geolocation, TPI, Lookups, Activelists and IP Attribution are all allowed to Clients and do not require the creation of a CUST_ parser.
 
