@@ -17,3 +17,32 @@ Capturing Groups
 Common Event Format (CEF)
 Key-Value Pair
 SNYPR 6.4 includes Data Dictionary that provides consistent and easy to understand labels for data ingested from various datasources. These labels provide uniformity to data ingested from multiple datasources within a functionality.
+
+{{< tabs "uniqueid" >}}
+{{< tab "Reports" >}}
+# Reports
+
+This is tab **Reports** content.
+
+SNYPRContent includes custom reports for each functionality that provide transparency into the activity on your network to identify security issues and meet compliance requirements.
+{{< /tab >}}
+
+{{< tab "Dashboards" >}}
+
+# Dashboards
+
+This is tab **Dashboards** content.
+
+SNYPRContent features custom dashboards that visualize the most relevant information for each functionality to monitor compliance issues and gain data insights into various types of policy violations and threats in your environment.
+
+{{< /tab >}}
+
+{{< tab "Policies" >}}
+
+# Policies
+
+This is tab **Policies** content.
+
+Policies are the checks run on each device to detect threat indicators. You can enable, disable, or delete policies when you import the datasource.
+{{< /tab >}}
+{{< /tabs >}}
