@@ -34,7 +34,7 @@ The following prerequisites are required to access Content Management:
 
 2. A  user account with role as ROLE_CONTENT_ADMIN. When the ROLE_CONTENT_ADMIN is not assigned to the user, the Content Management option is not available.
 
-![CM Admin](../../../../CM_Prereq.png)
+![CM Admin](../../../CM_Prereq.png)
 
 3. A user account with role as ROLE_COMMIT_CONTENT to commit content from Content Management.
 
