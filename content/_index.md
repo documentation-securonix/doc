@@ -7,7 +7,7 @@ type: docs
 
 ###### [2022 Securonix Documentation](https://documentation-securonix.github.io/doc/) Powered by Hugo & HugoBook
 
-![Securonix logo](../securonix_logo.jpg "Logo")
+![Securonix logo](securonix_logo.jpg "Logo")
 
 This website contains the official Securonix documentation related to it's products and services.
 
