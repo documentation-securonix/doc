@@ -1,0 +1,161 @@
+**Access Link:** <https://securonixinc.productboard.com/insights/notes/all-notes> 
+
+Productboard is a dedicated product management system that helps you align everyone on the right features to build next. 
+
+Currently, we have multiple communication channels for customer feedback, requests as well as internal communication so some data might be lost and it might not get prioritized properly. 
+
+Productboard helps with this aspect by consolidating all data in one place and also helps using that insights to prioritise and build new features. 
+
+* **Understanding what users really need**
+* **Prioritizing what to build based on clear objectives**
+* **Rallying everyone around the roadmap**
+
+## **Platform Overview:**
+
+Features section in Productboard. Left menu in order: 1) Insights 2) Features 3) Roadmap 4) Portal
+
+### Insights
+
+Consolidate ideas, requests, and feedback to understand what users really need.
+
+### Features
+
+Organize feature ideas, prioritize around clear objectives, and plan upcoming releases.
+
+### Roadmap
+
+Share your roadmap to align your team and rally everyone around where your product is headed and why.
+
+### Portal
+
+Engage your user community: validate ideas by collecting upvotes and feedback, share your plans, and showcase recent launches.
+
+## **Data Imports (Insights):**
+
+We can import necessary user data manually or by integrations into the insights section. They are created as notes in Productboard which can then be added to necessary issues/bugs/features in feature section. 
+
+Each note has the following fields:
+
+* Note Title
+* Note content + attachments
+* User/Company
+* Tags
+
+Notes can be added to Productboard through any of the following methods:
+
+### **1. Slack**
+
+Any slack message can be added to Productboard (Once you have been given access to Platform) by selecting the three dots on right corner next to the message and selecting push to Productboard.
+
+We can select feature or component and add importance and additional comments to a particular slack message.
+
+### **2. Email**
+
+We can forward any communication from email to Productboard default email ( which we can customise ) and have it added to our Platform automatically.
+
+Forwarding email feature request to Productboard
+
+### **3. Chrome extension**
+
+By downloading the Productboard, we can select a text from any website and click on Productboard extension icon and add it to Productboard.
+
+### **4. Zapier**
+
+We can import data from Smartsheets, Totango on a continuous basis to Productboard with the help of their open API and Zapier to facilitate an integration. 
+
+#### **4.1 Sample Zapier Integration:**
+
+1. Open Zapier
+2. Click on create new Zap
+3. Choose required app ( for eg: Smartsheet ) to connect to Productboard
+4. Select event to create note in Productboard and authorise your account
+5. Set up a trigger which can be any action like new row added, row value updated (or anything similar to your app)
+6. Next, select Productboard as the other app and authorise your account
+7. Choose relevant fields to be mapped from your app choice to Productboard
+8. Test your connection
+9. Now anytime you add new information to your app, it gets added to Productboard automatically
+
+These Zapier integrations can be used for other data platforms where we have a continuous influx of data and need it to be updated to Productboard as well.
+
+Additionally, we can sort our input data as notes by using any of these filters and add them to collections for easier accessibility.
+
+## Features section:
+
+The features section contains all of our projects ( currently: Content Management and Data Team only) and the relevant issues in them. You can link customer feedback/insight/request or any other data from Insights section to here. This is the place where we can prioritize issues and get a view of everything we have in plan for current and upcoming sprint.
+
+For each feature idea in this section, we can assign priority as value and effort ( story points ) which would give us a Value effort score. We can also add a user impact score to this which reflects how many times a user has requested for a particular feature.
+
+Furthermore, we get similar filters like insights which enable us to sort these features based on any of the filter values:
+
+* We can sort features by team, sprints or status
+* We can identify certain company/customer segments and track the completion status of those features alone
+
+## Roadmap:
+
+Quarterly release roadmap for CM
+
+Roadmaps are used to identify direction, priorities, and progress of a product over time. They help to align the organization around short- and long-term goals for the product or project, and how they will be achieved.
+
+Good Roadmaps are:
+
+1. Up to date guide on helping achieve product vision
+2. Useful in showcasing product impact
+3. Helpful in facilitating collaboration and gives a clear sense of direction to the team
+4. A great tool to reflect customer feedback and support their concerns.
+
+Productboard can help with all of the above by providing an adaptable and easily modifiable roadmap.
+
+In this section, we can get different views of our issues and feature stories and we can sort them however we want based on who we are presenting our Roadmap to. This section feature many filters which we can use to sort issues based on our preferences.
+
+Types of roadmaps available
+
+We can choose any particular roadmap of our preference depending on the audience and view our feature releases with timelines accordingly. The sprint backlog roadmap can be used to see what issues have been prioritized for what particular sprints and the feature timeline roadmap helps to see the high level feature releases.
+
+### **Sharing roadmaps:**
+
+We can export our roadmaps as pdf, png to be added to any presentation or we can make use of the copy link feature available under the share option to share a link through any communication channels. A more detailed walkthrough can be found in this recording:
+
+<https://securonix.zoom.us/rec/share/Ue7MQ4aKY5lFluE4TSKbJmj-CSjEYXJ9Rz0SuiMC04R_bLoV54TLjNPBFjDfd98c.fUFNUrvbdqikK64E> 
+
+Passcode: s!2FPt=c
+
+1500850The above is a representation of our Roadmap which has been embedded to this confluence page.
+
+### Portal:
+
+Portal is a flexible, interactive interface you can share with colleagues and/or customers to validate ideas and keep everyone informed. It can be used to used to collect feedback on ideas under consideration. All new ideas and feedback submitted on the Portal are routed back to the Insights board so they can be analysed alongside other inputs.
+
+Idea under consideration which can be displayed to internal teams or customers
+
+**To add an idea:**
+
+1. Click the plus icon at the bottom
+2. Select feature idea to be displayed for internal/customer view.
+3. Add to portal
+
+Then we can see the portal idea and the corresponding insights added for it.
+
+### **Action items for Productboard setup:**
+
+
+
+| **Action Item** | **Timeline** | Status |
+| Get clarification on JIRA to PB field mapping and implement it for CM and Data Teams | Wed(6/22) - Fri (6/24) | Meeting on July 7th |
+| Import all current smartsheet information.� | Wed(6/22) | Done |
+| Develop API to continuously pull data from Smartsheet to PB | Wed(6/22) - Fri (6/24) | Done |
+| Get overview of information in Totango and develop API to automatically update data to PB | Wed(6/22) - Mon (6/27) | Done |
+| Structure customer feedback, issues, backlog and roadmaps in PB. | Wed(6/22) - Mon(6/27) | Done |
+| Provide demo sessions to PMs and get their feedback and requirements and assist with prioritization | Mon(6/27) - Wed (6/29) | Done |
+| Go live for the CM and Data Team and monitor and make any necessary adjustments if required for test run.� | Mon(6/27) - Wed (6/29) | Done |
+| Test Run | Wed (6/29) - Wed (7/8) | In progress |
+
+### **External references:**
+
+[Getting started](https://support.productboard.com/hc/en-us/articles/360056293874-2-Getting-Started)
+
+{{< rawhtml >}}
+<p><strong>Access Link: </strong><a href=\"https://securonixinc.productboard.com/insights/notes/all-notes\" data-card-appearance=\"inline\">https://securonixinc.productboard.com/insights/notes/all-notes</a> </p><p>Productboard is a dedicated product management system that helps you align everyone on the right features to build next. </p><p>Currently, we have multiple communication channels for customer feedback, requests as well as internal communication so some data might be lost and it might not get prioritized properly. </p><p>Productboard helps with this aspect by consolidating all data in one place and also helps using that insights to prioritise and build new features. </p><ul><li><p><strong>Understanding what users really need</strong></p></li><li><p><strong>Prioritizing what to build based on clear objectives</strong></p></li><li><p><strong>Rallying everyone around the roadmap</strong></p></li></ul><h2><strong>Platform Overview:</strong></h2><ac:image ac:align=\"center\" ac:layout=\"center\" ac:original-height=\"720\" ac:original-width=\"1280\" ac:width=\"680\"><ri:attachment ri:filename=\"image-20220701-161915.png\" ri:version-at-save=\"1\" /><ac:caption><p>Features section in Productboard. Left menu in order: 1) Insights 2) Features 3) Roadmap 4) Portal</p></ac:caption></ac:image><h3>Insights</h3><ac:image ac:align=\"left\" ac:layout=\"align-start\" ac:original-height=\"60\" ac:original-width=\"60\"><ri:attachment ri:filename=\"image-20220705-182215.png\" ri:version-at-save=\"1\" /></ac:image><p>Consolidate ideas, requests, and feedback to understand what users really need.</p><h3>Features</h3><ac:image ac:align=\"left\" ac:layout=\"align-start\" ac:original-height=\"60\" ac:original-width=\"60\"><ri:attachment ri:filename=\"image-20220701-162725.png\" ri:version-at-save=\"1\" /></ac:image><p>Organize feature ideas, prioritize around clear objectives, and plan upcoming releases.</p><h3>Roadmap</h3><ac:image ac:align=\"left\" ac:layout=\"align-start\" ac:original-height=\"60\" ac:original-width=\"60\"><ri:attachment ri:filename=\"image-20220701-162748.png\" ri:version-at-save=\"1\" /></ac:image><p>Share your roadmap to align your team and rally everyone around where your product is headed and why.</p><h3>Portal</h3><ac:image ac:align=\"left\" ac:layout=\"align-start\" ac:original-height=\"60\" ac:original-width=\"60\"><ri:attachment ri:filename=\"image-20220701-162805.png\" ri:version-at-save=\"1\" /></ac:image><p>Engage your user community: validate ideas by collecting upvotes and feedback, share your plans, and showcase recent launches.</p><h2><strong>Data Imports (Insights):</strong></h2><p>We can import necessary user data manually or by integrations into the insights section. They are created as notes in Productboard which can then be added to necessary issues/bugs/features in feature section. </p><ac:image ac:align=\"center\" ac:layout=\"center\" ac:original-height=\"720\" ac:original-width=\"1280\"><ri:attachment ri:filename=\"image-20220701-163359.png\" ri:version-at-save=\"1\" /></ac:image><p>Each note has the following fields:</p><ul><li><p>Note Title</p></li><li><p>Note content + attachments</p></li><li><p>User/Company</p></li><li><p>Tags</p></li></ul><p>Notes can be added to Productboard through any of the following methods:</p><h3><strong>1. Slack</strong></h3><ac:image ac:align=\"center\" ac:layout=\"center\" ac:original-height=\"316\" ac:original-width=\"955\"><ri:attachment ri:filename=\"image-20220701-171301.png\" ri:version-at-save=\"1\" /></ac:image><p>Any slack message can be added to Productboard (Once you have been given access to Platform) by selecting the three dots on right corner next to the message and selecting push to Productboard.</p><ac:image ac:align=\"center\" ac:layout=\"center\" ac:original-height=\"483\" ac:original-width=\"551\"><ri:attachment ri:filename=\"image-20220701-172108.png\" ri:version-at-save=\"1\" /><ac:caption><p>We can select feature or component and add importance and additional comments to a particular slack message.</p></ac:caption></ac:image><h3><strong>2. Email</strong></h3><p /><p>We can forward any communication from email to Productboard default email ( which we can customise ) and have it added to our Platform automatically.</p><ac:image ac:align=\"center\" ac:layout=\"center\" ac:original-height=\"312\" ac:original-width=\"791\"><ri:attachment ri:filename=\"image-20220701-172730.png\" ri:version-at-save=\"1\" /><ac:caption><p>Forwarding email feature request to Productboard</p></ac:caption></ac:image><h3><strong>3. Chrome extension</strong></h3><p>By downloading the Productboard, we can select a text from any website and click on Productboard extension icon and add it to Productboard.</p><ac:image ac:align=\"center\" ac:layout=\"center\" ac:original-height=\"429\" ac:original-width=\"1220\"><ri:attachment ri:filename=\"image-20220701-173013.png\" ri:version-at-save=\"1\" /></ac:image><h3><strong>4. Zapier</strong></h3><p>We can import data from Smartsheets, Totango on a continuous basis to Productboard with the help of their open API and Zapier to facilitate an integration. </p><h4><strong>4.1 Sample Zapier Integration:</strong></h4><ol><li><p>Open Zapier</p></li><li><p>Click on create new Zap</p></li><li><p>Choose required app ( for eg: Smartsheet ) to connect to Productboard </p></li><li><p>Select event to create note in Productboard and authorise your account</p></li><li><p>Set up a trigger which can be any action like new row added, row value updated (or anything similar to your app)</p></li><li><p>Next, select Productboard as the other app and authorise your account</p></li><li><p>Choose relevant fields to be mapped from your app choice to Productboard</p></li><li><p>Test your connection</p></li><li><p>Now anytime you add new information to your app, it gets added to Productboard automatically</p></li></ol><p /><ac:image ac:align=\"center\" ac:layout=\"center\" ac:original-height=\"350\" ac:original-width=\"667\"><ri:attachment ri:filename=\"image-20220701-205500.png\" ri:version-at-save=\"1\" /></ac:image><ac:image ac:align=\"center\" ac:layout=\"center\" ac:original-height=\"377\" ac:original-width=\"671\"><ri:attachment ri:filename=\"image-20220701-205543.png\" ri:version-at-save=\"1\" /></ac:image><p /><ac:image ac:align=\"center\" ac:layout=\"center\" ac:original-height=\"547\" ac:original-width=\"673\"><ri:attachment ri:filename=\"image-20220701-205429.png\" ri:version-at-save=\"1\" /></ac:image><p>These Zapier integrations can be used for other data platforms where we have a continuous influx of data and need it to be updated to Productboard as well.</p><ac:image ac:align=\"center\" ac:layout=\"center\" ac:original-height=\"516\" ac:original-width=\"387\"><ri:attachment ri:filename=\"image-20220701-222355.png\" ri:version-at-save=\"1\" /></ac:image><p>Additionally, we can sort our input data as notes by using any of these filters and add them to collections for easier accessibility.</p><h2>Features section:</h2><ac:image ac:align=\"center\" ac:layout=\"center\" ac:original-height=\"720\" ac:original-width=\"1280\" ac:width=\"680\"><ri:attachment ri:filename=\"image-20220701-161915.png\" ri:version-at-save=\"1\" /></ac:image><p>The features section contains all of our projects ( currently: Content Management and Data Team only) and the relevant issues in them. You can link customer feedback/insight/request or any other data from Insights section to here. This is the place where we can prioritize issues and get a view of everything we have in plan for current and upcoming sprint.</p><ac:image ac:align=\"center\" ac:layout=\"center\" ac:original-height=\"329\" ac:original-width=\"809\"><ri:attachment ri:filename=\"image-20220701-223142.png\" ri:version-at-save=\"1\" /></ac:image><p>For each feature idea in this section, we can assign priority as value and effort ( story points ) which would give us a Value effort score. We can also add a user impact score to this which reflects how many times a user has requested for a particular feature.</p><p /><ac:image ac:align=\"center\" ac:layout=\"center\" ac:original-height=\"593\" ac:original-width=\"446\"><ri:attachment ri:filename=\"image-20220701-223337.png\" ri:version-at-save=\"1\" /></ac:image><p>Furthermore, we get similar filters like insights which enable us to sort these features based on any of the filter values:</p><ul><li><p>We can sort features by team, sprints or status</p></li><li><p>We can identify certain company/customer segments and track the completion status of those features alone</p></li></ul><h2>Roadmap:</h2><p /><ac:image ac:align=\"center\" ac:layout=\"center\" ac:original-height=\"587\" ac:original-width=\"1111\"><ri:attachment ri:filename=\"image-20220701-180841.png\" ri:version-at-save=\"1\" /><ac:caption><p>Quarterly release roadmap for CM</p></ac:caption></ac:image><p>Roadmaps are used to identify direction, priorities, and progress of a product over time. They help to align the organization around short- and long-term goals for the product or project, and how they will be achieved.</p><p>Good Roadmaps are:</p><ol><li><p>Up to date guide on helping achieve product vision</p></li><li><p>Useful in showcasing product impact</p></li><li><p>Helpful in facilitating collaboration and gives a clear sense of direction to the team</p></li><li><p>A great tool to reflect customer feedback and support their concerns. </p></li></ol><p>Productboard can help with all of the above by providing an adaptable and easily modifiable roadmap.</p><p>In this section, we can get different views of our issues and feature stories and we can sort them however we want based on who we are presenting our Roadmap to. This section feature many filters which we can use to sort issues based on our preferences.</p><ac:image ac:align=\"center\" ac:layout=\"center\" ac:original-height=\"269\" ac:original-width=\"257\"><ri:attachment ri:filename=\"image-20220705-215922.png\" ri:version-at-save=\"1\" /><ac:caption><p>Types of roadmaps available</p></ac:caption></ac:image><p>We can choose any particular roadmap of our preference depending on the audience and view our feature releases with timelines accordingly. The sprint backlog roadmap can be used to see what issues have been prioritized for what particular sprints and the feature timeline roadmap helps to see the high level feature releases.</p><h3><strong>Sharing roadmaps:</strong></h3><p>We can export our roadmaps as pdf, png to be added to any presentation or we can make use of the copy link feature available under the share option to share a link through any communication channels. A more detailed walkthrough can be found in this recording:</p>
+
+
+</p><h3><strong>Action items for Productboard setup:</strong></h3><table data-layout=\"default\" ac:local-id=\"f9896b6f-8949-4e33-b39f-19c5204d47be\"><colgroup><col style=\"width: 488.0px;\" /><col style=\"width: 152.0px;\" /><col style=\"width: 120.0px;\" /></colgroup><tbody><tr><td><p><strong>Action Item</strong></p></td><td><p><strong>Timeline</strong></p></td><td><p>Status</p></td></tr><tr><td><p>Get clarification on JIRA to PB field mapping and implement it for CM and Data Teams</p></td><td><p>Wed(6/22) - Fri (6/24)</p></td><td><p>Meeting on July 7th</p></td></tr><tr><td><p>Import all current smartsheet information.&nbsp;</p></td><td><p>Wed(6/22)</p></td><td><p>Done</p></td></tr><tr><td><p>Develop API to continuously pull data from Smartsheet to PB</p></td><td><p>Wed(6/22) - Fri (6/24)</p></td><td><p>Done</p></td></tr><tr><td><p>Get overview of information in Totango and develop API to automatically update data to PB</p></td><td><p>Wed(6/22) - Mon (6/27)</p></td><td><p>Done</p></td></tr><tr><td><p>Structure customer feedback, issues, backlog and roadmaps in PB.</p></td><td><p>Wed(6/22) - Mon(6/27)</p></td><td><p>Done</p></td></tr><tr><td><p>Provide demo sessions to PMs and get their feedback and requirements and assist with prioritization</p></td><td><p>Mon(6/27) - Wed (6/29)</p></td><td><p>Done</p></td></tr><tr><td><p>Go live for the CM and Data Team and monitor and make any necessary adjustments if required for test run.&nbsp;</p></td><td><p>Mon(6/27) - Wed (6/29)</p></td><td><p>Done</p></td></tr><tr><td><p>Test Run</p></td><td><p>Wed (6/29) - Wed (7/8)</p></td><td><p>In progress</p></td></tr></tbody></table><p /><h3><strong>External references: </strong></h3>
+{{< /rawhtml >}}
