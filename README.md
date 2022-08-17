@@ -1,5 +1,7 @@
 # Securonix Documentation as Code
 
+![alt text](https://www.securonix.com/wp-content/uploads/2021/12/thumbnail_logo2.jpg "Securonix Logo")
+
 This repository contains the Documentation for Securonix products and services.
 
 ## To add new content:
