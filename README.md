@@ -22,7 +22,7 @@ For adding new content to the Documentation base, please follow the steps listed
 
 [markdown syntax]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-## To add content from Confluence:
+### To add content from Confluence:
 
 * For the confluence page you want to publish in the documentation portal, get the following details:
   * Page id
