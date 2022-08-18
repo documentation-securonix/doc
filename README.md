@@ -27,7 +27,7 @@ For adding new content to the Documentation base, please follow the steps listed
 ### To add content from Confluence:
 
 * For the confluence page you want to publish in the documentation portal, get the following details:
-  * Page id ( https://securonix.atlassian.net/wiki/spaces/TD/pages/<page-id-here>/SamplePageName )
+  * Page id ( securonix.atlassian.net/wiki/spaces/TD/pages/<page-id-here>/SamplePageName )
   * Your Confluence username ( user@securonix.com)
   * Your API token ( [Link on how to get this] )
 * Update this data in the script - PublishConfluence.py. Make sure the converted .md file gets generated in the content/docs path of the repository.
